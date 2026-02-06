@@ -31,6 +31,6 @@ function App() {
       </div>
   )
 }
-import ContactForm from './Components/ContactForm'
+
 
 export default App
