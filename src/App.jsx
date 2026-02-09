@@ -8,6 +8,7 @@ import Footer from './Components/Footer'
 import Car from './Components/Car'
 import Todo from './Components/Todo'
 import Calculator from './Components/Calculator'
+import TodoList from './Components/TodoList'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Car carInfo={carInfo} />
             <Todo task="Buy groceries" completed={false} />
             <Calculator />
+            <TodoList />
             <Footer />
       </div>
   )
